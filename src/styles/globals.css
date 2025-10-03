@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* custom CSS variables for sizing, spacing, etc. */
+:root {
+  --window-width: 100vw;
+  --window-height: 100vh;
+  --title-size: 2.5rem;
+  --icon-button-width: 2rem;
+  --title-padding: 1rem;
+  --icon-container-margin: 1rem;
+  --star-margin: 1rem;
+  --body-size: 1rem;
+}
+
+@layer base {
+    p {
+        @apply text-6xl
+    }
+
+    h2 {
+        @apply text-xl
+    }
+
+}
