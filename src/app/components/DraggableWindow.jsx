@@ -1,7 +1,7 @@
 "use client";
 
 import { motion, useDragControls } from "framer-motion";
-import React, { useState, useEffect, useRef} from "react"
+import React, { useState} from "react"
 
 const getInitialWindowPosition = (windowId) => {
     const offset = (windowId - 1) * 20;

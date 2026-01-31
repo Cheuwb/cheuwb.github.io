@@ -85,7 +85,7 @@ export default function Home() {
               className="text-center font-medium font-body text-6xl
                     text-[var(--title-size)] pt-[var(--title-padding)] dark:text-gray-100"
             >
-              {"Hi! I'm "} <span className="text-primary !text-[#275efe] font-bold ">Brian</span>
+              {"Hi! I&apos;m "} <span className="text-primary !text-[#275efe] font-bold ">Brian</span>
             </p>
             <h2 className="text-center mt-4 mb-1 dark:text-gray-100">I code for fun, play sports, and enjoy puzzle games.</h2>
             {/* Icon menu */}
