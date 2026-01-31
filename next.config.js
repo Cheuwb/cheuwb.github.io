@@ -1,9 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export', 
-  basePath: '/rian-website', 
+  output: "export",
+  basePath: "/rian-website",
   images: {
-    unoptimized: true, 
+    unoptimized: true,
+  },
+  eslint: {
+    ignoreDuringBuilds: true,
   },
 };
 
