@@ -92,7 +92,7 @@ const Navbar = ({onIconClick}) => {
                                         React
                                     </span>
                                     <span className="bg-yellow-100 text-yellow-800 text-sm font-semibold px-3 py-1 rounded-full dark:bg-yellow-700 dark:text-yellow-200">
-                                        Next.js (App Router)
+                                        Next.js
                                     </span>
                                     <span className="bg-teal-100 text-teal-800 text-sm font-semibold px-3 py-1 rounded-full dark:bg-teal-900 dark:text-teal-300">
                                         Tailwind CSS
