@@ -1,8 +1,6 @@
 "use client";
 
-import { useEffect, useState, useRef } from "react";
-import Image from "next/image";
-import Link from "next/link";
+import { useState, useRef } from "react";
 import Navbar from "./components/Navbar";
 import DraggableWindow from "./components/DraggableWindow";
 import { AnimatePresence } from "framer-motion";

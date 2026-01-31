@@ -14,12 +14,12 @@ const Resume = () => {
             >
                 <div className="h-12 w-12">
                     <img
-                        src="/icons/resume.webp"
+                        src="/rian-website/icons/resume.webp"
                         alt="Resume light-mode"
                         className="dark:hidden"
                     />
                     <img
-                        src="/icons/dark_resume.webp"
+                        src="/rian-website/icons/dark_resume.webp"
                         alt="Resume dark-mode"
                         className="dark:block"
                     />

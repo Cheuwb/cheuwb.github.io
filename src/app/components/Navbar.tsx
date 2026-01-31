@@ -41,7 +41,7 @@ const Navbar = ({onIconClick}) => {
                         width="512"
                         height="512"
                         decoding="async"
-                        src="/images/avatar.webp"
+                        src="/rian-website/images/avatar.webp"
                         className="rounded-full w-32 h-32 object-cover" 
                     />
                     <div className="md:pl-9">
@@ -58,12 +58,12 @@ const Navbar = ({onIconClick}) => {
                                 <span
                                 className="border-b-4 border-blue-700 ml-2">
                                     <img
-                                        src="/icons/bee.svg"
+                                        src="/rian-website/icons/bee.svg"
                                         alt="Ibm Logo"
                                         className="dark:hidden h-7 w-7 inline align-text-bottom transition-transform duration-200 hover:scale-125"
                                     />
                                     <img
-                                        src="/icons/dark_bee.webp"
+                                        src="/rian-website/icons/dark_bee.webp"
                                         alt="Ibm Logo"
                                         className="dark:inline h-7 w-7 align-text-bottom transition-transform duration-200 hover:scale-125"
                                     />
@@ -193,7 +193,7 @@ const Navbar = ({onIconClick}) => {
                         alt="Under construction"
                         loading="lazy"
                         decoding="async"
-                        src="/images/maintenance.webp"
+                        src="/rian-website/images/maintenance.webp"
                     />
             </div>
         },
@@ -208,7 +208,7 @@ const Navbar = ({onIconClick}) => {
                     alt="Send me an email!"
                     loading="lazy"
                     decoding="async"
-                    src="/images/mail_me.webp"
+                    src="/rian-website/images/mail_me.webp"
                 />
                 <p className="text-base mb-4 text-gray-600 dark:text-gray-400 mt-4">
                     copy my email to clipboard: 
@@ -252,7 +252,7 @@ const Navbar = ({onIconClick}) => {
                                 alt="Github Link"
                                 loading="lazy"
                                 decoding="async"
-                                src="/images/githap.webp"
+                                src="/rian-website/images/githap.webp"
                                 width="150"
                                 height="150"
                             />
@@ -281,14 +281,14 @@ const Navbar = ({onIconClick}) => {
               >
                 <div className="flex flex-col items-center">
                   <Image
-                    src={`/icons/icon_${item}.webp`}
+                    src={`/rian-website/icons/icon_${item}.webp`}
                     alt={item}
                     width={64}
                     height={64}
                     className="block dark:hidden drop-shadow-flat w-[var(--icon-button-width)]"
                   />
                   <Image
-                    src={`/icons/icon_${item}_dark.webp`}
+                    src={`/rian-website/icons/icon_${item}_dark.webp`}
                     alt={item}
                     width={64}
                     height={64}
