@@ -1,8 +1,10 @@
-/** @type {import('next').NextConfig} */ // Optional JSDoc for intellisense
+/** @type {import('next').NextConfig} */
 const nextConfig = {
-  // your configuration settings
-  reactStrictMode: true,
-  // ... other configs
+  output: 'export', 
+  basePath: '/rian-website', 
+  images: {
+    unoptimized: true, 
+  },
 };
 
-export default nextConfig;
+module.exports = nextConfig;
